@@ -1,0 +1,74 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Poppins:wght@300&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+body {
+    color:white;
+    background-color: black;
+}
+h2 {
+    margin-left: 20px;
+     font-family: 'Poppins'
+}
+p {
+    font-family: 'DM Sans', sans-serif
+}
+.logo {
+    border-radius: 10px;
+    height: 150px;
+    border: 1px solid aqua;
+}
+button{
+  font-family: 'Poppins';
+     width: 97%;
+    color: white;
+    padding: 12px 0px;
+    font-size: 12px;
+    background: red;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 20px;
+    transition-duration: 0.4s;
+    
+    border: 2px solid aqua;
+}
+button:hover{
+    cursor: pointer;
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    
+   
+}
+.row {
+    
+    border-radius: 15px;
+    padding: 10px;
+    height: 300px;
+    border-block: 1px solid white;
+    transition-duration: 1s;
+}
+.row:hover {
+    transform: translateY(-10px);
+}
+.images {
+    margin-top: 50px;
+    animation: slideRight 20s;
+    overflow: hidden;
+    display: flex;
+}
+@keyframes slideRight{
+  from {margin-left:0px}
+  to {margin-left:-450px}
+}
+footer {
+     position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  font-family: 'DM Sans', sans-serif;
+  text-align: center;
+}
